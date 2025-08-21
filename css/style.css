@@ -453,16 +453,12 @@ aside {
   color: #fff;
 }
 
-.container .footer {
-    display: flex;
-    justify-content: space-between;
-}
-
 .post-meta-line {
   margin: 6px 0 14px;
   font-size: 0.95rem;
   color: #555;
 }
+
 .post-meta-line strong {
   color: #111;
 }
