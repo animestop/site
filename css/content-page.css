@@ -1,0 +1,67 @@
+h1 {
+    font-size: 30px;
+}
+
+    aside {
+        margin-top: 205px;
+    }
+
+.anime-hero {
+    margin: 20px 0 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.anime-hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.anime-summary {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.anime-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+    margin: 30px 0;
+}
+
+.anime-gallery img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.anime-info {
+    background: var(--chip);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.anime-info h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+    aside {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    aside {
+        margin-top: 0;
+    }
+}
