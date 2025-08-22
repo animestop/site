@@ -531,3 +531,17 @@ aside {
     margin: 20px 0;
   }
 }
+
+.todas-postagens {
+    display: flex;
+    grid-template-columns: 160px 1fr;
+    gap: 16px;
+    padding: 14px;
+    border: 1px solid var(--line);
+    background: var(--card);
+    box-shadow: var(--shadow);
+}
+
+.todas-postagens:hover {
+    cursor: pointer;
+}
