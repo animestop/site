@@ -270,21 +270,33 @@
                 </aside>
             </section>
         </div>
+
+        <!-- Compartilhamento -->
+        <div id="compartilhe-container"></div>
+
+        <script src="../js/sharekit.js"></script>
+        <script>
+            fetch("../includes/compartilhamento.html")
+                .then(r => r.text())
+                .then(html => {
+                    const box = document.getElementById("compartilhe-container");
+                    box.innerHTML = html;
+                    initShareKit(box); // chamada direta
+                });
+        </script>
+
+        <!-- Disqus -->
+        <section class="comentarios" aria-label="Comentários">
+            <p>DEIXE UM COMENTÁRIO</p>
+            <div id="comentarios-container"></div>
+
+            <script src="../js/disqus.js"></script>
+            <script>
+                // Aqui você chama a função e passa o ID do container e o identificador único da página
+                initDisqus("comentarios-container", "jujutsu-kaisen-o-novo-rei-do-shounen");
+            </script>
+        </section>
     </main>
-
-    <!-- Compartilhamento -->
-    <div id="compartilhe-container"></div>
-
-    <script src="../js/sharekit.js"></script>
-    <script>
-        fetch("../includes/compartilhamento.html")
-            .then(r => r.text())
-            .then(html => {
-                const box = document.getElementById("compartilhe-container");
-                box.innerHTML = html;
-                initShareKit(box); // chamada direta
-            });
-    </script>
 
     <footer>
         <div class="container footer">

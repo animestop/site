@@ -296,21 +296,22 @@
                 </aside>
             </section>
         </div>
+
+        <!-- Compartilhamento -->
+        <div id="compartilhe-container"></div>
+
+        <script src="../js/sharekit.js"></script>
+        <script>
+            fetch("../includes/compartilhamento.html")
+                .then(r => r.text())
+                .then(html => {
+                    const box = document.getElementById("compartilhe-container");
+                    box.innerHTML = html;
+                    initShareKit(box); // chamada direta
+                });
+        </script>
+
     </main>
-
-    <!-- Compartilhamento -->
-  <div id="compartilhe-container"></div>
-
-  <script src="../js/sharekit.js"></script>
-  <script>
-    fetch("../includes/compartilhamento.html")
-      .then(r => r.text())
-      .then(html => {
-        const box = document.getElementById("compartilhe-container");
-        box.innerHTML = html;
-        initShareKit(box); // chamada direta
-      });
-  </script>
 
     <footer>
         <div class="container footer">
