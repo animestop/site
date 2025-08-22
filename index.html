@@ -278,15 +278,11 @@
         </div>
 
         <!-- ==================== SIDEBAR ==================== -->
-       <div id="sidebar"></div>
+        <aside aria-label="Barra lateral">
+        
+        </aside>
 
-      <script>
-        fetch("/includes/sidebar.html")
-          .then(res => res.text())
-          .then(data => {
-            document.getElementById("sidebar").innerHTML = data;
-          });
-      </script>
+        <script src="/js/sidebar.js"></script>
 
         <script async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4481078020462017"
