@@ -289,7 +289,18 @@
                     initShareKit(box); // chamada direta
                 });
         </script>
-        
+
+        <!-- Disqus -->
+        <section class="comentarios" aria-label="Comentários">
+            <h2>Deixe um comentário</h2>
+            <div id="comentarios-container"></div>
+
+            <script src="../js/disqus.js"></script>
+            <script>
+                // Aqui você chama a função e passa o ID do container e o identificador único da página
+                initDisqus("comentarios-container", "my-hero-academia-onde-todos-podem-ser-herois");
+            </script>
+        </section>
     </main>
 
     <footer>

@@ -297,7 +297,7 @@
         </aside>
       </section>
     </div>
-    
+
     <!-- Compartilhamento -->
     <div id="compartilhe-container"></div>
 
@@ -312,6 +312,17 @@
         });
     </script>
 
+    <!-- Disqus -->
+    <section class="comentarios" aria-label="Comentários">
+      <h2>Deixe um comentário</h2>
+      <div id="comentarios-container"></div>
+
+      <script src="../js/disqus.js"></script>
+      <script>
+        // Aqui você chama a função e passa o ID do container e o identificador único da página
+        initDisqus("comentarios-container", "top-5-novos-shounens-que-explodiram-no-japao");
+      </script>
+    </section>
   </main>
 
   <footer>

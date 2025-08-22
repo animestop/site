@@ -503,7 +503,8 @@ aside {
 }
 
 .comentarios {
-    margin: 40px 0;
+    width: 70%;
+    margin: 40px auto;
     padding: 20px;
     border-top: 1px solid var(--line);
     background: var(--card);
@@ -515,4 +516,18 @@ aside {
     font-size: 1.4rem;
     margin-bottom: 16px;
     color: var(--text);
+}
+
+@media (max-width: 768px) {
+  .comentarios {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 1600px) {
+  .comentarios {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
