@@ -4,7 +4,7 @@
     <!-- Página Principal -->
     <url>
         <loc>https://animestop.com.br/index.html</loc>
-        <lastmod>2025-08-26</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -12,43 +12,43 @@
     <!-- Páginas de Categorias -->
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-anime.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-manga.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-filme.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-reviews.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-guias.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-curiosidades.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-listas.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -56,137 +56,143 @@
     <!-- Páginas de Tags -->
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-acao.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-aventura.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-romance.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-isekai.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-comedia.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-super-heroi.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-fantasia.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-slice-of-life.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-sobrenatural.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-shounen.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-seinen.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-mecha.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-psicologico.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-esporte.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-psicologico.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <!-- Posts (Artigos Individuais) -->
     <url>
+        <loc>https://animestop.com.br/paginas/jujutsu-kaisen-o-novo-rei-do-shounen.html</loc>
+        <lastmod>2025-08-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://animestop.com.br/paginas/my-hero-academia-onde-todos-podem-ser-herois.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/kaguya-sama-love-is-war.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/fullmetal-alchemist-a-jornada-epica-pela-pedra-filosofal.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/kimi-no-na-wa-uma-historia-de-amor-que-transcende-o-tempo.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/konosuba-uma-aventura-hilaria-em-outro-mundo.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/top-5-novos-shounens-que-explodiram-no-japao.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/mirai-nikki-o-anime-que-vai-mexer-com-a-sua-mente.html</loc>
-        <lastmod>2025-08-21</lastmod>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
