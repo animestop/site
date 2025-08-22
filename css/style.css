@@ -391,9 +391,17 @@ footer {
     }
 
     .tabs {
-        width: 100%;
-        justify-content: space-between;
-    }
+    width: 100%;
+    justify-content: center; /* centraliza */
+    gap: 6px;
+  }
+
+  .tab {
+    flex: 1;                /* 👈 ocupa largura igual */
+    text-align: center;     /* centraliza o texto */
+    padding: 10px 0;        /* não deixa muito largo */
+    white-space: nowrap;    /* evita quebra feia */
+  }
 
     .feat-title {
         font-size: .98rem;
