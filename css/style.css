@@ -351,6 +351,37 @@ footer {
 }
 
 @media (max-width: 640px) {
+      .featured-grid {
+        position: static;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 16px;
+        padding: 0;
+        background: none; /* remove fundo cinza extra */
+    }
+
+    .square {
+        aspect-ratio: auto; /* libera altura automática */
+    }
+
+    .feat-card {
+        grid-template-rows: auto auto; /* imagem + texto */
+    }
+
+    .feat-thumb {
+        width: 100%;
+        height: 200px;      /* 👈 altura fixa no mobile */
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+
+    .featured-grid article {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
     .post-card {
         grid-template-columns: 1fr;
     }
