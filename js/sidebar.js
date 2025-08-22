@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(response => response.text())
     .then(data => {
       aside.innerHTML = data;
+      void aside.offsetHeight;
     })
     .catch(error => {
       console.error("Erro ao carregar sidebar:", error);
