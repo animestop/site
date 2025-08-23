@@ -93,11 +93,16 @@
     <link rel="stylesheet" href="../css/content-page.css">
     <link rel="stylesheet" href="../css/tags.css">
 
+    <!-- ================= Preconnect ================= -->
+    <link rel="preconnect" href="https://disqus.com" crossorigin>
+    <link rel="preconnect" href="https://animes-top.disqus.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- ================= DNS Prefetch ================= -->
-    <link rel='dns-prefetch' href='//fonts.googleapis.com'>
-    <link rel='dns-prefetch' href='//www.googletagmanager.com'>
-    <link rel='dns-prefetch' href='//pagead2.googlesyndication.com'>
-    <link rel='dns-prefetch' href='//fundingchoicesmessages.google.com'>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//fundingchoicesmessages.google.com">
 </head>
 
 <body>
@@ -209,7 +214,7 @@
         <!-- Compartilhamento -->
         <div id="compartilhe-container"></div>
 
-        <script src="../js/sharekit.js"></script>
+        <script src="../js/sharekit.js" defer></script>
         <script>
             fetch("../includes/compartilhamento.html")
                 .then(r => r.text())
@@ -225,7 +230,7 @@
             <h2>Deixe um comentário</h2>
             <div id="comentarios-container"></div>
 
-            <script src="../js/disqus.js"></script>
+            <script src="../js/disqus.js" defer></script>
             <script>
                 // Aqui você chama a função e passa o ID do container e o identificador único da página
                 initDisqus("comentarios-container", "fullmetal-alchemist-a-jornada-epica-pela-pedra-filosofal");

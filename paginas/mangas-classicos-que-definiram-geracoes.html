@@ -73,7 +73,7 @@
         "url": "https://animestop.com.br/imgs/favicon/logo.png"
       }
     },
-    "datePublished": "2025-08-23",
+    "datePublished": "2025-08-23T10:00:00-03:00",
     "image": "https://animestop.com.br/imgs/berserk-1.jpg",
     "description": "Viaje no tempo e redescubra os mangás clássicos que se tornaram pilares da cultura pop, como Dragon Ball, Berserk, Sailor Moon e Akira."
   }
@@ -93,11 +93,19 @@
     <link rel="stylesheet" href="../css/content-page.css">
     <link rel="stylesheet" href="../css/tags.css">
 
+    <!-- ================= Preconnect ================= -->
+    <link rel="preconnect" href="https://disqus.com" crossorigin>
+    <link rel="preconnect" href="https://animes-top.disqus.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- ================= DNS Prefetch ================= -->
-    <link rel='dns-prefetch' href='//fonts.googleapis.com'>
-    <link rel='dns-prefetch' href='//www.googletagmanager.com'>
-    <link rel='dns-prefetch' href='//pagead2.googlesyndication.com'>
-    <link rel='dns-prefetch' href='//fundingchoicesmessages.google.com'>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//fundingchoicesmessages.google.com">
+
+    <!-- ================= Preload Imagem ================= -->
+    <link rel="preload" as="image" href="../imgs/berserk-1.webp" fetchpriority="high">
 </head>
 
 <body>
@@ -132,7 +140,9 @@
                         <div class="meta">Mangá • Lista • Clássicos • Ação • Drama</div>
 
                         <div class="anime-hero">
-                            <img src="../imgs/berserk-1.jpg" alt="Painel do mangá Berserk">
+                            <img src="../imgs/berserk-1.webp"
+                                srcset="../imgs/berserk-1-400.webp 400w, ../imgs/berserk-1-800.webp 800w, ../imgs/berserk-1-1200.webp 1200w"
+                                sizes="(max-width: 600px) 100vw, 1200px" fetchpriority="high" alt="Imagem de Berserk">
                         </div>
 
                         <p class="anime-summary">
@@ -147,8 +157,11 @@
                             busca das Esferas do Dragão estabeleceu o padrão para o shounen de batalha. Com lutas
                             épicas, transformações icônicas e um senso de aventura contagiante, a obra de Toriyama é a
                             porta de entrada para muitos fãs até hoje.</p>
+
                         <div class="anime-gallery">
-                            <img src="../imgs/dragon-ball.jpg" alt="Imagem de Dragon Ball">
+                            <img src="../imgs/dragon-ball.webp"
+                                srcset="../imgs/dragon-ball-400.webp 400w, ../imgs/dragon-ball-800.webp 800w, ../imgs/dragon-ball-1200.webp 1200w"
+                                sizes="(max-width: 600px) 100vw, 600px" loading="lazy" alt="Imagem de Dragon Ball">
                         </div>
 
                         <h2>⚔️ Berserk (Kentaro Miura)</h2>
@@ -156,8 +169,11 @@
                             Guts, o Espadachim Negro, em sua busca por vingança em um mundo cruel e impiedoso. A arte
                             detalhada de Miura e sua narrativa densa sobre trauma, destino e humanidade o tornam uma
                             leitura obrigatória e inesquecível.</p>
+
                         <div class="anime-gallery">
-                            <img src="../imgs/berserk-2.jpg" alt="Guts, o Espadachim Negro, no mangá Berserk">
+                            <img src="../imgs/berserk-2.webp"
+                                srcset="../imgs/berserk-2-400.webp 400w, ../imgs/berserk-2-800.webp 800w, ../imgs/berserk-2-1200.webp 1200w"
+                                sizes="(max-width: 600px) 100vw, 600px" loading="lazy" alt="Outra imagem de Berserk">
                         </div>
 
                         <!-- <script async
@@ -175,8 +191,12 @@
                             de Usagi Tsukino e suas amigas guerreiras não era apenas sobre lutar contra o mal, mas
                             também sobre amizade, romance e amadurecimento. Seu impacto na moda e na cultura pop é
                             sentido até hoje, inspirando incontáveis obras.</p>
+
                         <div class="anime-gallery">
-                            <img src="../imgs/sailor-moon.jpg" alt="As Guerreiras Sailors no mangá Sailor Moon">
+                            <img src="../imgs/sailor-moon.webp"
+                                srcset="../imgs/sailor-moon-400.webp 400w, ../imgs/sailor-moon-800.webp 800w, ../imgs/sailor-moon-1200.webp 1200w"
+                                sizes="(max-width: 600px) 100vw, 600px" loading="lazy"
+                                alt="As Guerreiras Sailors no mangá Sailor Moon">
                         </div>
 
                         <h2>🏍️ Akira (Katsuhiro Otomo)</h2>
@@ -184,8 +204,12 @@
                             com gangues de motoqueiros, poderes psíquicos e conspirações governamentais. A arte
                             cinematográfica de Otomo e sua crítica social complexa elevaram o padrão do que um mangá
                             poderia ser, influenciando a ficção científica globalmente.</p>
+
                         <div class="anime-gallery">
-                            <img src="../imgs/akira.jpg" alt="Cena icônica do mangá Akira">
+                            <img src="../imgs/akira.webp"
+                                srcset="../imgs/akira-400.webp 400w, ../imgs/akira-800.webp 800w, ../imgs/akira-1200.webp 1200w"
+                                sizes="(max-width: 600px) 100vw, 600px" loading="lazy"
+                                alt="Cena icônica do mangá Akira">
                         </div>
 
                         <p class="anime-summary">
@@ -218,7 +242,7 @@
         <!-- Compartilhamento -->
         <div id="compartilhe-container"></div>
 
-        <script src="../js/sharekit.js"></script>
+        <script src="../js/sharekit.js" defer></script>
         <script>
             fetch("../includes/compartilhamento.html")
                 .then(r => r.text())
@@ -234,7 +258,7 @@
             <h2>Deixe um comentário</h2>
             <div id="comentarios-container"></div>
 
-            <script src="../js/disqus.js"></script>
+            <script src="../js/disqus.js" defer></script>
             <script>
                 // Aqui você chama a função e passa o ID do container e o identificador único da página
                 initDisqus("comentarios-container", "mangas-classicos-que-definiram-geracoes");
