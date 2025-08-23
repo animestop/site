@@ -140,79 +140,20 @@
 
                 </div>
 
-                <!-- ==================== SIDEBAR ==================== -->
-                <aside aria-label="Barra lateral">
-                    <section class="widget">
-                        <h3>Postagens Recentes</h3>
-                        <div class="recent-posts">
-                            <article class="recent-card">
-                                <a href="../top-5-novos-shounens-que-explodiram-no-japao.html" class="recent-thumb"><img
-                                        src="../../imgs/blue-lock.webp" alt="Imagem de Blue Lock"></a>
-                                <div>
-                                    <a href="../top-5-novos-shounens-que-explodiram-no-japao.html"
-                                        class="recent-title">Top 5 novos shounens que explodiram no Japão.</a>
-                                    <div class="recent-meta">21 ago 2025</div>
-                                </div>
-                            </article>
-                            <article class="recent-card">
-                                <a href="../my-hero-academia-onde-todos-podem-ser-herois.html" class="recent-thumb"><img
-                                        src="../../imgs/my-hero-academia-1.jpg" alt="Imagem de My Hero Academia"></a>
-                                <div>
-                                    <a href="../my-hero-academia-onde-todos-podem-ser-herois.html"
-                                        class="recent-title">My Hero Academia:
-                                        Onde Todos Podem Ser Heróis.</a>
-                                    <div class="recent-meta">21 ago 2025</div>
-                                </div>
-                            </article>
-                            <article class="recent-card">
-                                <a href="../kaguya-sama-love-is-war.html" class="recent-thumb"><img
-                                        src="../../imgs/kaguya-sama-1.jpg" alt="Imagem de Kaguya Sama"></a>
-                                <div>
-                                    <a href="../kaguya-sama-love-is-war.html" class="recent-title">Kaguya-sama: A Guerra
-                                        de Gênios por
-                                        Amor.</a>
-                                    <div class="recent-meta">21 ago 2025</div>
-                                </div>
-                            </article>
-                        </div>
-                    </section>
-                    <section class="widget">
-                        <h3>Categorias</h3>
-                        <div class="cats">
-                            <a href="../cats/cat-anime.html">Anime (9)</a>
-                            <a href="../cats/cat-manga.html">Mangá (0)</a>
-                            <a href="../cats/cat-filme.html">Filme (1)</a>
-                            <a href="../cats/cat-reviews.html">Reviews (0)</a>
-                            <a href="../cats/cat-guias.html">Guias (0)</a>
-                            <a href="../cats/cat-curiosidades.html">Curiosidades (1)</a>
-                            <a href="../cats/cat-listas.html">Listas (0)</a>
-                        </div>
-                    </section>
-
-                    <section class="widget">
-                        <h3>Tags</h3>
-                        <div class="box">
-                            <div class="tags">
-                                <a class="tag" href="../tags/tag-acao.html">ação (4)</a>
-                                <a class="tag" href="../tags/tag-aventura.html">aventura (2)</a>
-                                <a class="tag" href="../tags/tag-romance.html">romance (2)</a>
-                                <a class="tag" href="../tags/tag-isekai.html">isekai (1)</a>
-                                <a class="tag" href="../tags/tag-comedia.html">comédia (2)</a>
-                                <a class="tag" href="../tags/tag-drama.html">drama (1)</a>
-                                <a class="tag" href="../tags/tag-super-heroi.html">super-héroi (1)</a>
-                                <a class="tag" href="../tags/tag-fantasia.html">fantasia (2)</a>
-                                <a class="tag" href="../tags/tag-slice-of-life.html">slice of life (0)</a>
-                                <a class="tag" href="../tags/tag-sobrenatural.html">sobrenatural (2)</a>
-                                <a class="tag" href="../tags/tag-shounen.html">shounen (3)</a>
-                                <a class="tag" href="../tags/tag-seinen.html">seinen (1)</a>
-                                <a class="tag" href="../tags/tag-terror.html">terror (1)</a>
-                                <a class="tag" href="../tags/tag-mecha.html">mecha (1)</a>
-                                <a class="tag" href="../tags/tag-esporte.html">esporte (1)</a>
-                                <a class="tag" href="../tags/tag-psicologico.html">psicológico (2)</a>
-                            </div>
-                        </div>
-                    </section>
+                <aside id="sidebar" aria-label="Barra lateral">
                 </aside>
+
+                <!-- Script para carregar a sidebar -->
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        fetch("/includes/sidebar.html")
+                            .then(response => response.text())
+                            .then(data => {
+                                document.getElementById("sidebar").innerHTML = data;
+                            })
+                            .catch(error => console.error("Erro ao carregar sidebar:", error));
+                    });
+                </script>
 
             </section>
         </div>
