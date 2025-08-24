@@ -261,6 +261,11 @@ main {
 .excerpt {
     color: var(--muted);
     font-size: .95rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;              /* Mostra no máximo 2 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .stack {
