@@ -149,6 +149,24 @@
 
     <!-- Posts (Artigos Individuais) -->
     <url>
+        <loc>https://animestop.com.br/paginas/neon-genesis-evangelion-a-angustia-por-tras-dos-robos-gigantes.html</loc>
+        <lastmod>2025-08-25</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/dr-stone-o-despertar-da-ciencia.html</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/mangas-classicos-que-definiram-geracoes.html</loc>
+        <lastmod>2025-08-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://animestop.com.br/paginas/code-geass-a-rebeliao-de-lelouch.html</loc>
         <lastmod>2025-08-22</lastmod>
         <changefreq>daily</changefreq>
