@@ -155,6 +155,12 @@
 
     <!-- Posts (Artigos Individuais) -->
     <url>
+        <loc>https://animestop.com.br/paginas/umamusume-cinderella-gray-o-retorno-dramatico-aos-campos-de-corrida.html</loc>
+        <lastmod>2025-08-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://animestop.com.br/paginas/natsume-yuujinchou-o-laco-entre-mundos-e-a-gentileza-que-cura.html</loc>
         <lastmod>2025-08-26</lastmod>
         <changefreq>daily</changefreq>
