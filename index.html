@@ -58,19 +58,46 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Animes Top — Anime & Mangá",
-    "url": "https://animestop.com.br/",
-    "logo": "https://animestop.com.br/imgs/favicon/logo.png",
-    "description": "Animes Top — Notícias, reviews e guias de animes e mangás. Descubra lançamentos, clássicos, recomendações e tudo do universo otaku em um só lugar.",
-    "founder": {
-      "@type": "Person",
-      "name": "Gabriel Cossare Bragion",
-      "url": "https://bragioncorp.com/"
-    },
-    "sameAs": [
-      "https://www.instagram.com/animestop_oficial",
-      "https://www.youtube.com/@AnimesTopComBr"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://animestop.com.br/#organization",
+        "name": "Animes Top — Anime & Mangá",
+        "url": "https://animestop.com.br/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://animestop.com.br/imgs/favicon/logo.png"
+        },
+        "description": "Animes Top — Notícias, reviews e guias de animes e mangás. Descubra lançamentos, clássicos, recomendações e tudo do universo otaku em um só lugar.",
+        "foundingDate": "2023",
+        "foundingLocation": {
+          "@type": "Place",
+          "name": "Brasil"
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Gabriel Cossare Bragion",
+          "url": "https://bragioncorp.com/"
+        },
+        "sameAs": [
+          "https://www.instagram.com/animestop_oficial",
+          "https://www.youtube.com/@AnimesTopComBr"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://animestop.com.br/#website",
+        "url": "https://animestop.com.br/",
+        "name": "Animes Top",
+        "publisher": {
+          "@id": "https://animestop.com.br/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://animestop.com.br/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
     ]
   }
   </script>
@@ -124,6 +151,26 @@
 
             <!-- Card 1 -->
             <article class="feat-card">
+              <a href="paginas/fairy-tail-a-forca-dos-lacos-e-a-magia-da-amizade.html">
+                <div class="feat-thumb" style="background-image:url('imgs/fairy-tail-1.webp');"></div>
+              </a>
+              <div class="feat-content">
+                <span class="badge">Anime</span>
+                <span class="badge">Aventura</span>
+                <span class="badge">Fantasia</span>
+                <span class="badge">Ação</span>
+                <span class="badge">Comédia</span>
+                <span class="badge">Shounen</span>
+                <h2 class="feat-title">
+                  <a href="paginas/fairy-tail-a-forca-dos-lacos-e-a-magia-da-amizade.html">Fairy Tail: A Força dos Laços
+                    e a Magia da Amizade.</a>
+                </h2>
+                <div class="meta">por <strong>Bie</strong> • 27 ago 2025</div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="feat-card">
               <a href="paginas/umamusume-cinderella-gray-o-retorno-dramatico-aos-campos-de-corrida.html">
                 <div class="feat-thumb" style="background-image:url('imgs/umamusume-1.webp');"></div>
               </a>
@@ -140,8 +187,8 @@
               </div>
             </article>
 
-            <!-- Card 2 -->
-             <article class="feat-card">
+            <!-- Card 3 -->
+            <article class="feat-card">
               <a href="paginas/natsume-yuujinchou-o-laco-entre-mundos-e-a-gentileza-que-cura.html">
                 <div class="feat-thumb" style="background-image:url('imgs/natsume-1.webp');"></div>
               </a>
@@ -157,24 +204,6 @@
                 <div class="meta">por <strong>Bie</strong> • 26 ago 2025</div>
               </div>
             </article>
-
-            <!-- Card 3 -->
-            <article class="feat-card">
-              <a href="paginas/neon-genesis-evangelion-a-angustia-por-tras-dos-robos-gigantes.html">
-                <div class="feat-thumb" style="background-image:url('imgs/evangelion-1.webp');"></div>
-              </a>
-              <div class="feat-content">
-                <span class="badge">Anime</span>
-                <span class="badge">Psicológico</span>
-                <span class="badge">Mecha</span>
-                <span class="badge">Drama</span>
-                <h2 class="feat-title">
-                  <a href="paginas/neon-genesis-evangelion-a-angustia-por-tras-dos-robos-gigantes.html">Neon Genesis
-                    Evangelion: A Angústia por Trás dos Robôs Gigantes.</a>
-                </h2>
-                <div class="meta">por <strong>Bie</strong> • 25 ago 2025</div>
-              </div>
-            </article>
           </div>
         </div>
       </section>
@@ -183,14 +212,30 @@
       <section class="content" aria-label="Conteúdo principal">
         <div class="stack" aria-label="Lista de postagens">
 
+
+          <article class="post-card">
+            <a class="post-thumb" href="paginas/neon-genesis-evangelion-a-angustia-por-tras-dos-robos-gigantes.html">
+              <img src="imgs/evangelion-1.webp" alt="Imagem de My Hero Academia" />
+            </a>
+            <div>
+              <div class="meta">Anime • 25 ago 2025</div>
+              <h3 class="post-title"><a
+                  href="paginas/neon-genesis-evangelion-a-angustia-por-tras-dos-robos-gigantes.html">Neon Genesis
+                  Evangelion: A Angústia por Trás dos Robôs Gigantes</a></h3>
+              <p class="excerpt">Uma análise profunda de Neon Genesis Evangelion. Explore os temas psicológicos, a
+                desconstrução do gênero mecha e o legado de uma das obras mais influentes da história da animação.</p>
+            </div>
+          </article>
           <article class="post-card">
             <a class="post-thumb" href="paginas/dr-stone-o-despertar-da-ciencia.html">
               <img src="imgs/dr-stone-1.webp" alt="Imagem de Dr Stone" />
             </a>
             <div>
               <div class="meta">Anime • 26 ago 2025</div>
-              <h3 class="post-title"><a href="paginas/dr-stone-o-despertar-da-ciencia.html">Dr. Stone: O Despertar da Ciência.</a></h3>
-              <p class="excerpt">Resumo e análise de Dr. Stone. A incrível jornada de Senku Ishigami para reconstruir a civilização do zero, usando o poder da ciência para despertar a humanidade da petrificação.</p>
+              <h3 class="post-title"><a href="paginas/dr-stone-o-despertar-da-ciencia.html">Dr. Stone: O Despertar da
+                  Ciência.</a></h3>
+              <p class="excerpt">Resumo e análise de Dr. Stone. A incrível jornada de Senku Ishigami para reconstruir a
+                civilização do zero, usando o poder da ciência para despertar a humanidade da petrificação.</p>
             </div>
           </article>
           <article class="post-card">
@@ -252,18 +297,6 @@
               <p class="excerpt">Resumo e análise de Jujutsu Kaisen. A jornada de Yuji Itadori, um estudante que se
                 torna o receptáculo do Rei das Maldições, Ryomen Sukuna, e entra para o mundo dos Feiticeiros Jujutsu.
               </p>
-            </div>
-          </article>
-          <article class="post-card">
-            <a class="post-thumb" href="paginas/my-hero-academia-onde-todos-podem-ser-herois.html">
-              <img src="imgs/my-hero-academia-1.jpg" alt="Imagem de My Hero Academia" />
-            </a>
-            <div>
-              <div class="meta">Anime • 21 ago 2025</div>
-              <h3 class="post-title"><a href="paginas/my-hero-academia-onde-todos-podem-ser-herois.html">My Hero
-                  Academia: Onde Todos Podem Ser Heróis</a></h3>
-              <p class="excerpt">Resumo de My Hero Academia (Boku no Hero). A jornada de Izuku Midoriya, um garoto sem
-                poderes em um mundo de super-heróis, que herda o lendário One For All para se tornar o maior herói.</p>
             </div>
           </article>
 
