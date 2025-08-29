@@ -212,9 +212,10 @@ main {
 }
 
 @media (max-width: 600px) {
-  .badge {
-    margin-bottom: 8px; /* espaço entre linhas e colunas */
-  }
+    .badge {
+        margin-bottom: 8px;
+        /* espaço entre linhas e colunas */
+    }
 }
 
 .feat-title {
@@ -222,6 +223,12 @@ main {
     font-size: 1rem;
     line-height: 1.25;
     font-weight: 800;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* Mostra no máximo 2 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .meta {
