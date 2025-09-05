@@ -4,7 +4,7 @@
     <!-- Página Principal -->
     <url>
         <loc>https://animestop.com.br/index.html</loc>
-        <lastmod>2025-09-04</lastmod>
+        <lastmod>2025-09-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -36,7 +36,7 @@
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/cats/cat-games.html</loc>
-        <lastmod>2025-08-28</lastmod>
+        <lastmod>2025-09-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
@@ -62,13 +62,13 @@
     <!-- Páginas de Tags -->
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-acao.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <lastmod>2025-09-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://animestop.com.br/paginas/tags/tag-aventura.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <lastmod>2025-09-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
@@ -160,6 +160,12 @@
     </url>
 
     <!-- Posts (Artigos Individuais) -->
+    <url>
+        <loc>https://animestop.com.br/paginas/solo-leveling-arise-rpg-de-acao-chega-em-breve.html</loc>
+        <lastmod>2025-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
     <url>
         <loc>https://animestop.com.br/paginas/blood-c-o-terror-escondido-sob-uma-rotina-pacifica.html</loc>
         <lastmod>2025-09-04</lastmod>
@@ -313,6 +319,14 @@
     <url>
         <loc>https://animestop.com.br/paginas/mirai-nikki-o-anime-que-vai-mexer-com-a-sua-mente.html</loc>
         <lastmod>2025-08-22</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Todas as Postagens -->
+    <url>
+        <loc>https://animestop.com.br/paginas/todas-as-postagens.html</loc>
+        <lastmod>2025-09-05</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
