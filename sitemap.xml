@@ -161,6 +161,12 @@
 
     <!-- Posts (Artigos Individuais) -->
     <url>
+        <loc>https://animestop.com.br/paginas/blood-c-o-terror-escondido-sob-uma-rotina-pacifica.html</loc>
+        <lastmod>2025-09-04</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://animestop.com.br/paginas/re-zero-o-isekai-que-transformou-sofrimento-em-arte.html</loc>
         <lastmod>2025-09-04</lastmod>
         <changefreq>daily</changefreq>
