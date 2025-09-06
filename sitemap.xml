@@ -158,6 +158,42 @@
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/tags/tag-sci-fi.html</loc>
+        <lastmod>2025-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/tags/tag-suspense.html</loc>
+        <lastmod>2025-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/tags/tag-misterio.html</loc>
+        <lastmod>2025-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/tags/tag-musica.html</loc>
+        <lastmod>2025-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/tags/tag-rpg.html</loc>
+        <lastmod>2025-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://animestop.com.br/paginas/tags/tag-gacha.html</loc>
+        <lastmod>2025-09-05</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
 
     <!-- Posts (Artigos Individuais) -->
     <url>
