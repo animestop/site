@@ -592,3 +592,47 @@ aside {
 .todas-postagens:hover {
     cursor: pointer;
 }
+
+/* ===== Páginas institucionais (Privacy/Terms) ===== */
+main .policy {
+  display: block;           /* neutraliza grid */
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px 0;
+  line-height: 1.7;
+}
+
+main .policy h1 {
+  margin: 24px 0 10px;
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+main .policy h2 {
+  margin: 22px 0 10px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+main .policy p {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+main .policy ul {
+  margin: 12px 0 16px 20px;
+  padding: 0;
+  list-style: disc;
+}
+
+/* se houver .post-card dentro da policy (não deveria), deixa “flat” */
+main .policy .post-card {
+  display: block;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
